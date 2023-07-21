@@ -136,6 +136,12 @@
     <!-- Add slow test groups here and annotate classes similar to @Tag('groupName'). -->
     <!-- Excluded groups are ran on github ci, to force here, pass -d"excludedGroups=" -->
     <excludedGroups>TestcontainersTests</excludedGroups>
+<sonar.host.url>http://34.125.135.231:9000/</sonar.host.url>
+    <sonar.login>sqa_e2619a9b04cb541ff4df46f9c7261cec529286b6</sonar.login>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <jackson-dataformat-yaml.version>2.14.2</jackson-dataformat-yaml.version>
+        <junit-jupiter-params.version>5.9.2</junit-jupiter-params.version>
 
     <!-- Automatic Module Name -->
     <module.name>org.mybatis</module.name>
